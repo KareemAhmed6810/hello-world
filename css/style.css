@@ -1,14 +1,11 @@
-body {
-    background-color: red;
-}
 section {
-    background-color: #fff;
-    padding-top: 110px;
-    padding-bottom: 110px;
+    background-color: tomato;
 }
+
 .title {
     margin-bottom: 25px;
 }
+
 .title h6 {
     font-weight: 500;
     font-size: 13px;
@@ -17,16 +14,19 @@ section {
     color: #1f1f1f;
     line-height: 1.3;
 }
+
 .title p {
     color: #787878;
     font-size: 24px;
     margin: 20px 0;
     font-weight: 300 !important;
 }
-.section-content{
+
+.section-content {
     padding-top: 25px;
 }
-.btn-3{
+
+.btn-3 {
     color: black;
     line-height: 48px;
     border-width: 1px;
@@ -35,17 +35,20 @@ section {
     font-size: 11px;
     letter-spacing: 0.05em;
 }
+
 section+section {
     border-top: 1px solid #eee;
 }
-.title h2{
+
+.title h2 {
     font-size: 38px;
     letter-spacing: -1px;
     font-weight: 700;
     color: #1f1f1f;
     position: relative;
 }
-.title h2::before{
+
+.title h2::before {
     content: "C";
     margin: auto;
     z-index: -1;
@@ -55,25 +58,30 @@ section+section {
     top: -0.5em;
     text-align: center;
 }
+
 .title h4 {
     font-weight: 400;
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #787878;
 }
-.team-content{
+
+.team-content {
     padding-bottom: 25px;
     padding-top: 25px;
 }
-.team-image img{
+
+.team-image img {
     width: 100%;
 }
-.team-member{
+
+.team-member {
     margin-left: auto;
     margin-right: auto;
     position: relative;
     overflow: hidden;
 }
+
 .team-overlay {
     position: absolute;
     top: -20;
@@ -94,16 +102,19 @@ section+section {
     -webkit-box-align: end;
     align-items: flex-end;
 }
-.team-member:hover .team-overlay{
+
+.team-member:hover .team-overlay {
     opacity: 1;
 }
-.team-info{
+
+.team-info {
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;
     padding: 20px 0;
 }
+
 .team-info h4 {
     margin-bottom: 0;
     font-size: 23px;
@@ -112,9 +123,11 @@ section+section {
     margin-top: 0;
     font-weight: 600;
 }
+
 .team-info span {
     font-size: 22px;
 }
+
 .team-social {
     padding: 0px;
     width: 100%;
@@ -122,10 +135,12 @@ section+section {
     margin: 15px 0 0;
     margin-bottom: 240px;
 }
+
 .team-social li {
     display: inline-block;
     margin-right: 10px;
 }
+
 .team-social>li>a {
     display: block;
     color: white;
