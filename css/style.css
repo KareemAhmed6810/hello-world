@@ -146,3 +146,32 @@ section+section {
     color: white;
     font-size: 22px;
 }
+
+.indicator-item img{
+    width: 110px !important;
+    height: 110px !important;
+}
+
+.indicator-item img.active{
+    width: 140px !important;
+    height: 140px !important;
+}
+
+.single-box p{
+    width: 400px;
+    margin: auto;
+}
+
+.client-info h3 {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.client-info{
+    display: none;
+}
+
+.indicator-item img.active:first-of-type + div{
+    display: block;
+}
