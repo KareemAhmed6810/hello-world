@@ -175,3 +175,7 @@ section+section {
 .indicator-item img.active:first-of-type + div{
     display: block;
 }
+
+#Blog{
+    background-color: rgb(187, 131, 240);
+}
